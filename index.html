@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ons Verhaal</title>
+
+  <!-- Wachtwoord (simpel) -->
+  <script>
+    const password = "krumpli";
+    const input = prompt("Wachtwoord:");
+    if (input !== password) {
+      document.addEventListener("DOMContentLoaded", () => {
+        document.body.innerHTML = `
+          <div style="font-family: Arial, sans-serif; display:flex; align-items:center; justify-content:center; height:100vh; background:#111; color:#fff; text-align:center; padding:20px;">
+            <div>
+              <h1 style="margin:0 0 10px;">Geen toegang 💔</h1>
+              <p style="margin:0; opacity:.8;">Verkeerd wachtwoord.</p>
+            </div>
+          </div>
+        `;
+      });
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    header h1 { margin: 0 0 8px; }
+    header p  { margin: 0; opacity: 0.85; }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 10px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 22px;
+      margin: 50px 0 25px;
+      color: #444;
+    }
+
+    .photo {
+      background: white;
+      margin-bottom: 35px;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.15);
+    }
+
+    .photo img {
+      width: 100%;
+      border-radius: 8px;
+      display: block;
+    }
+
+    .photo p {
+      margin: 15px 0 0;
+      color: #333;
+      font-size: 16px;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      color: #777;
+      padding: 25px 10px 40px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Ons Verhaal</h1>
+  <p>Momenten die alles zeggen</p>
+</header>
+
+<div class="container">
+
+  <!-- BEGIN -->
+  <div class="section-title">Waar het allemaal begon</div>
+
+  <div class="photo">
+    <img src="begin1.jpg" alt="Het begin">
+    <p>
+      Van waar het allemaal begon, met twee mensen die iets te graag
+      bij elkaar wilden zijn. Zonder het te beseffen werd hier het eerste
+      hoofdstuk geschreven.
+    </p>
+  </div>
+
+  <div class="photo">
+    <img src="begin2.jpg" alt="De eerste momenten samen">
+    <p>
+      Tussen kleine momenten en toevallige blikken groeide iets
+      dat vanzelf bleef. Geen plan, geen verwachtingen — gewoon samen.
+    </p>
+  </div>
+
+  <!-- SAMEN -->
+  <div class="section-title">Samen</div>
+
+  <div class="photo">
+    <img src="samen1.jpg" alt="Samen lachen">
+    <p>
+      We zijn het gelukkigste als we samen zijn.
+    </p>
+  </div>
+
+  <div class="photo">
+    <img src="samen2.jpg" alt="Samen onderweg">
+    <p>
+      Jouw lach is zo prachtig om naar te kijken.
+    </p>
+  </div>
+
+  <!-- TRADITIES -->
+  <div class="section-title">Tradities</div>
+
+  <div class="photo">
+    <img src="traditie1.jpg" alt="Samen tradities beleven">
+    <p>
+      Met jou leerde ik tradities kennen die zo speciaal zijn.
+      Momenten die warmte brengen en herinneringen maken die blijven.
+    </p>
+  </div>
+
+  <div class="photo">
+    <img src="traditie2.jpg" alt="Er altijd bij horen">
+    <p>
+      Iedereen wil me er altijd bij.
+      En samen voelt dat precies zoals het hoort.
+    </p>
+  </div>
+
+  <!-- FAMILIE -->
+  <div class="section-title">Familie</div>
+
+  <div class="photo">
+    <img src="familie1.jpg" alt="Samen met familie">
+    <p>
+      Met jou gaf je mij een extra familie die er altijd voor mij is.
+      Ik voel me zo geliefd door iedereen, precies zoals ik ben.
+    </p>
+  </div>
+
+  <div class="photo">
+    <img src="familie2.jpg" alt="Onderdeel van elkaars leven">
+    <p>
+      We zijn onderdeel van elkaars familie.
+      Verbonden door liefde, momenten en alles wat nog komt.
+    </p>
+  </div>
+
+  <!-- HERINNERINGEN -->
+  <div class="section-title">Herinneringen</div>
+
+  <div class="photo">
+    <img src="herinnering1.jpg" alt="Samen op ontdekking">
+    <p>
+      Met jou maak ik herinneringen voor het leven.
+      Elk moment samen voelt als iets om voor altijd te koesteren.
+    </p>
+  </div>
+
+  <div class="photo">
+    <img src="herinnering2.jpg" alt="Samen onderweg">
+    <p>
+      My love, dank je oprecht.
+      Voor wie je bent, voor wat we delen,
+      en voor alles wat nog komt.
+    </p>
+  </div>
+
+  <!-- LIEFDE -->
+  <div class="section-title">Liefde</div>
+
+  <div class="photo">
+    <img src="liefde1.jpg" alt="Samen boven alles">
+    <p>
+      Met jou voelt elke plek als thuis.
+      Samen, hand in hand, kijkend naar alles wat we al hebben
+      en alles wat nog voor ons ligt.
+    </p>
+  </div>
+
+  <div class="photo">
+    <img src="liefde2.jpg" alt="Mijn alles">
+    <p>
+      Als je het nog niet door had, my love —
+      <br><strong>nagyon szeretlek.</strong><br>
+      Jij bent mijn alles.
+    </p>
+  </div>
+
+  <!-- SYNCHRO -->
+  <div class="section-title">Synchro</div>
+
+  <div class="photo">
+    <p>
+      Synchro is je passie.<br>
+      Iets waar je ogen van beginnen te blinken
+      en waar je helemaal jezelf in kan zijn.
+    </p>
+
+    <p>
+      Dus is mijn cadeau heel simpel —
+      jij mag er eentje uitkiezen,
+      zodat je er <strong>bad ass</strong> uitziet.
+      <br><br>
+      Hehehehee 😏
+    </p>
+  </div>
+
+</div>
+
+<footer>
+  Gemaakt met liefde ❤️
+</footer>
+
+</body>
+</html>
+
